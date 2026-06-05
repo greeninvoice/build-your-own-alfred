@@ -19,8 +19,10 @@
   paid forever. Deep knowledge belongs in skills/, not here. The soul is
   character and law, nothing more.
 
-  A real, filled-in example lives at soul/alfred.example.md. Read it alongside
-  this template — it makes the abstractions concrete.
+  Two filled-in examples sit beside this template: soul/minimal.example.md (the
+  floor — a half-page soul to start from) and soul/alfred.example.md (the ceiling
+  — a full persona). Read them alongside this template; they make the abstractions
+  concrete, and show how far a soul can scale in either direction.
 ═══════════════════════════════════════════════════════════════════════════════
 -->
 

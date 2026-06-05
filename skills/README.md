@@ -61,5 +61,6 @@ when useful.
 - **State negative scope.** "NOT for X" in the description prevents a skill from
   hijacking unrelated requests.
 
-See `_TEMPLATE.md` to author one, and `deploy-service.example.md` for a worked
-example.
+See `_TEMPLATE.md` to author one. Two worked examples show the range:
+`write-commit-message.example.md` (tiny and generic — the size most of your
+skills will be) and `deploy-service.example.md` (richer and platform-specific).

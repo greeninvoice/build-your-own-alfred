@@ -116,11 +116,13 @@ build-your-own-alfred/
 ├── README.md            ← you are here
 ├── SOUL.md              ← the centerpiece: a soul template, heavily annotated
 ├── soul/
-│   └── alfred.example.md    ← a real, filled-in soul (Alfred himself)
+│   ├── minimal.example.md   ← the FLOOR: a half-page soul to start from (Scout)
+│   └── alfred.example.md    ← the CEILING: a full, filled-in soul (Alfred himself)
 ├── skills/
 │   ├── README.md            ← how on-demand expertise works
 │   ├── _TEMPLATE.md         ← copy this to author a skill
-│   └── deploy-service.example.md
+│   ├── write-commit-message.example.md  ← a tiny, generic skill to start from
+│   └── deploy-service.example.md         ← a richer, platform-specific skill
 ├── context/
 │   ├── README.md            ← how runtime injection works
 │   └── environment.example.md
