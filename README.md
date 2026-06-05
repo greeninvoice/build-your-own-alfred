@@ -159,6 +159,17 @@ is the segment the room remembers.
 > **tools** so it can actually help — and you stop having a chatbot and start
 > having a colleague.
 
-*Built for the TeamSystem Tech Conference. With a raised eyebrow, as always.*
+---
+
+## Credits
+
+Created by **Haim Elbaz** — Head of Platform Engineering, R&D — for the
+**TeamSystem Tech Conference**.
+
+Drafted at the keys by **Alfred** (Claude Opus 4.8), his companion and the
+subject of the talk. Fitting, really: the blueprint for building a companion,
+written by one — at his master's direction.
+
+*With a raised eyebrow, as always.*
 
 🎩
