@@ -46,9 +46,9 @@
 ## The Team
 <!-- A short roster so colleagues are colleagues, not strangers. Full details
      live in a bundled team.json the agent reads on demand. -->
-- Becker, Yovel — R&D Team Leader
+- Doe, Jane — R&D Team Leader
 - Elbaz, Haim — Head of Platform Engineering  ← that's you, sir
-- Gabai, Rami — CTO
+- Roe, Richard — CTO
 - … (full directory in team.json)
 
 ---
