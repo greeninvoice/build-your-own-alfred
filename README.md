@@ -163,8 +163,7 @@ Monday," with a 5-minute cut and answers to the questions you'll get. The demo i
 
 ## Credits
 
-Created by **Haim Elbaz** — Head of Platform Engineering, R&D — for the
-**TeamSystem Tech Conference**.
+Created by **Haim Elbaz** — Head of Platform Engineering, R&D.
 
 Drafted at the keys by **Alfred** (Claude Opus 4.8), his companion and the
 subject of the talk. Fitting, really: the blueprint for building a companion,
