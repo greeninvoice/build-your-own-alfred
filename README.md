@@ -137,18 +137,18 @@ build-your-own-alfred/
 │   ├── architecture.md          ← the five pillars, in depth
 │   ├── anti-patterns.md         ← how to build a SOULLESS agent (learn by contrast)
 │   ├── soul-review-checklist.md ← a tear-off page to grade your own soul
-│   └── talk-track.md            ← speaker outline for presenting this repo
+│   └── talk-track.md            ← a reusable guide for presenting your own Alfred
 └── LICENSE
 ```
 
 ---
 
-## Presenting this repo?
+## Want to present this to your team?
 
-There's a full speaker outline in [`docs/talk-track.md`](./docs/talk-track.md) —
-beat-by-beat, mapped to the files you open live, with a 5-minute cut and answers
-to the hard questions. The demo in [`examples/transcript.md`](./examples/transcript.md)
-is the segment the room remembers.
+[`docs/talk-track.md`](./docs/talk-track.md) is a reusable guide for giving the
+talk yourself — five beats from "the model lied to me" to "I can build this on
+Monday," with a 5-minute cut and answers to the questions you'll get. The demo in
+[`examples/transcript.md`](./examples/transcript.md) is the part that lands.
 
 ---
 
