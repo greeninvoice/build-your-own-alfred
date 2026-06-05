@@ -1,0 +1,20 @@
+# Secrets never belong in a soul, a skill, or a tool registration.
+# MCP auth tokens, profile files with real emails, API keys.
+.env
+.env.*
+*.local
+profile.json
+**/secrets*
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.idea/
+.vscode/
+*.swp
+
+# NOTE: the *.example.* files ARE committed on purpose — they're the teaching
+# material. Real, filled-in souls/skills/memories for a live agent typically
+# live in your project's own .agent/ dir, not in this template repo.

@@ -1,0 +1,39 @@
+{
+  "//": "Example MCP server registration. The exact file/format is harness-specific (Claude Code uses .mcp.json / settings). This shows the SHAPE: each server gets a launch command, optional env/auth, and becomes a namespace of tools the agent can call as mcp__<server>__<tool>.",
+
+  "mcpServers": {
+
+    "yourcli": {
+      "//": "The highest-value MCP: a thin wrapper around your OWN DevOps CLI. Same commands your engineers run, now callable by the agent with the same safety rails. Mark destructive/long-running tools so the agent warns before firing.",
+      "command": "yourcli",
+      "args": ["mcp", "serve"],
+      "env": {}
+    },
+
+    "teamcity": {
+      "//": "Your CI. Read build logs, trigger deploys, query 'latest version of X'. A remote server reached over HTTP rather than launched locally.",
+      "url": "https://ci.example.dev/app/mcp",
+      "auth": "token-from-env"
+    },
+
+    "aws-docs": {
+      "//": "Read-only cloud documentation. Used to VERIFY identifiers, API shapes, region codes before stating them — the antidote to confidently-wrong AWS facts.",
+      "command": "uvx",
+      "args": ["awslabs.aws-documentation-mcp-server@latest"],
+      "env": { "AWS_DOCUMENTATION_PARTITION": "aws" }
+    },
+
+    "atlassian": {
+      "//": "Your issue tracker / wiki. Read a ticket, comment, transition status, search Confluence. Lets the agent work from the same tickets your team does.",
+      "url": "https://mcp.atlassian.com/v1/sse",
+      "auth": "oauth"
+    }
+  },
+
+  "notes": [
+    "Read-only tools (get/list/describe/search) are safe to call freely.",
+    "Mutating tools (deploy/create/delete/teardown) must be confirmed with the user first — encode this in the SOUL, not just here.",
+    "A tool that isn't connected this session is a capability the agent does NOT have — it should say so and point at how to enable it, not pretend.",
+    "Tool schemas can load lazily: hundreds of registered tools cost little until one is actually called."
+  ]
+}
